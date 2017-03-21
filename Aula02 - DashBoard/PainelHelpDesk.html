@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Help Desk</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle nagivation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>         
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <form class="navbar-form navbar-left">
+          <select class="form-control">
+            <option value=""></option>
+            <option value="1">Equipe 346</option>
+            <option value="2">Equipe 344</option>
+            <option value="3">Equipe 348</option>
+            <option value="4">Equipe 347</option>
+          </select>
+          <button type="submit" class="btn btn-primary">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>            
+          </button>
+          <button type="submit" class="btn btn-primary">
+          <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>            
+          </button>
+        </form>
+
+        <div class="text-center">
+          <h4>Painel Help Desk</h4>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="painel">
+        <!--Inicio do Conteudo-->
+        <!-- 1º Divisao-->
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="nomeTabela">Requisições de Serviços</h5>
+            <div class="table-responsive">
+              <table class="table  table-bordered">
+                <thead>
+                  <tr>
+                  <th class="corTitColunas_cinza">Status - SLA</th>
+                    <th class="text-center corTitColunas_verde">No Prazo</th>
+                    <th class="text-center corTitColunas_amarelo">À vencer</th>
+                    <th class="text-center corTitColunas_vermelhor">Vencido</th>
+                    <th class="text-center corTitColunas_roxo">Vip</th>
+                    <th class="text-center corTitColunas_cinza">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class='corTitulo'>Aguard. Atend.</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutadoT'>222</td>
+                  </tr>
+                  <tr>
+                    <td class='corTitulo'>Em Atendimento</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutadoT'>222</td>
+                  </tr>
+                  <tr>
+                    <td class='corTitulo'>Pendente</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutadoT'>222</td>
+                  </tr>
+                  <tr>
+                    <td class='corTitulo'>Agendado</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutadoT'>222</td>
+                  </tr>
+                  <tr>
+                    <td class='corTitulo'>Total</td>
+                    <td class='text-center corResutadoT'><strong>222</strong></td>
+                    <td class='text-center corResutadoT'><strong>222</strong></td>
+                    <td class='text-center corResutadoT'><strong>222</strong></td>
+                    <td class='text-center corResutadoT'><strong>222</strong></td>
+                    <td class='text-center corResutadoT'><strong>222</strong></td>
+                  </tr>
+                </tbody>
+              </table>    
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h5 class="nomeTabela">RDS nivel sla</h5>
+            <div class="result"><span class="vermelho">17%</span></div>
+            <div class="result"><span class="amarelo">18%</span></div>
+            <div class="result"><span class="verde">64%</span></div>
+          </div>
+          <div class="col-md-3">
+            <h5 class="nomeTabela">Incidente nivel sla</h5>
+            <div class="result"><span class="vermelho">20%</span></div>
+            <div class="result"><span class="amarelo">24%</span></div>
+            <div class="result"><span class="verde">85%</span></div>
+          </div>
+        </div>
+        <!-- 2º Divisao-->
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="nomeTabela">Requisições de Serviços</h5>
+            <div class="table-responsive">
+              <table class="table  table-bordered">
+                <thead>
+                  <tr>
+                  <th class="corTitColunas_cinza">Status - SLA</th>
+                    <th class="text-center corTitColunas_verde">No Prazo</th>
+                    <th class="text-center corTitColunas_amarelo">À vencer</th>
+                    <th class="text-center corTitColunas_vermelhor">Vencido</th>
+                    <th class="text-center corTitColunas_roxo">Vip</th>
+                    <th class="text-center corTitColunas_cinza">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class='corTitulo'>Aguard. Atend.</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutadoT'>222</td>
+                  </tr>
+                  <tr>
+                    <td class='corTitulo'>Em Atendimento</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutadoT'>222</td>
+                  </tr>
+                  <tr>
+                    <td class='corTitulo'>Pendente</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutadoT'>222</td>
+                  </tr>
+                  <tr>
+                    <td class='corTitulo'>Agendado</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutado'>222</td>
+                    <td class='text-center corResutadoT'>222</td>
+                  </tr>
+                  <tr>
+                    <td class='corTitulo'>Total</td>
+                    <td class='text-center corResutadoT'><strong>222</strong></td>
+                    <td class='text-center corResutadoT'><strong>222</strong></td>
+                    <td class='text-center corResutadoT'><strong>222</strong></td>
+                    <td class='text-center corResutadoT'><strong>222</strong></td>
+                    <td class='text-center corResutadoT'><strong>222</strong></td>
+                  </tr>
+                </tbody>
+              </table>    
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <h5 class="nomeTabela">RDS dentro do sla</h5>
+                <div class="result"><span class="vermelho">17%</span></div>
+              </div>
+              <div class="col-md-6">
+                <h5 class="nomeTabela">Incidente dentro do sla</h5>
+                <div class="result"><span class="verde">20%</span></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-10">
+                <h5 class="nomeT">Chamado em atendimento sem analista</h5>
+              </div>
+              <div class="col-md-2">
+                <h5 class="nomeTs">10</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-10">
+                <h5 class="nomeT">Atividades dentro do SLA</h5>
+              </div>
+              <div class="col-md-2">
+                <h5 class="nomeTs">100</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-10">
+                <h5 class="nomeT">Atividades fora do SLA</h5>
+              </div>
+              <div class="col-md-2">
+                <h5 class="nomeTs">1000</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Fim Conteudo-->
+      </div>
+    </div>
+    <!---->
+    <!---->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
