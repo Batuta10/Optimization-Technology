@@ -1,0 +1,40 @@
+h1,h2,h3,h4{
+	color:#0f5da0;
+}
+p{
+	color: #000;
+}
+.margTop{
+	margin-top: 60px;
+}
+.bord{
+	border: 1px solid #000;
+}
+.navbar-default{
+	background-color: #0f5da0;
+}
+.page-header{
+	color:#0f5da0;
+	border-bottom: 2px solid #0f5da0;
+}
+.margText{
+	margin-bottom: 20px;
+}
+.margText:last-child{
+	margin-bottom: 0;	
+}
+.footer {
+  position: absolute;
+  margin-top: 20px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 35px;
+  background-color: #0f5da0; 
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #FFF;
+}
+.carousel-indicators{
+	bottom: 0;
+}
